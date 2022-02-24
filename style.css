@@ -1,0 +1,67 @@
+:root {
+  --accent-color: rgb(10, 15, 15);
+  --white-color: #fff;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  color: var(--accent-color);
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+header {
+  background-color: rgb(8, 203, 238);
+  margin-bottom: 30px;
+}
+.nav {
+  display: flex;
+  padding: 0 10px;
+}
+.logo {
+  display: inline-block;
+  width: 20%;
+  text-decoration: none;
+  padding: 50px;
+}
+
+.nav-links {
+  margin: 0;
+  padding: 40px;
+  list-style: none;
+  overflow: hidden;
+  width: 80%;
+ 
+}
+
+.nav-item {
+  display: inline;
+  padding-top: 20px;
+}
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  padding: 0 15px;
+  font-size: 16px;
+  text-transform: uppercase;justify-content: space-between;
+}
+
+.me {
+  float: right;
+}
